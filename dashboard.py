@@ -14,11 +14,6 @@ def carregar_modelo():
 
 modelo = carregar_modelo()
 
-# Carregando os dados do csv
-resultados_teste = pd.read_csv(
-    './Data/resultados_teste.csv'
-)
-
 st.title("⚽ Análise de gols")
 
 st.write(
